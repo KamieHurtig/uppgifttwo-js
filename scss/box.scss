@@ -1,0 +1,24 @@
+.utin-box{
+    border-bottom: 1px solid black;
+}
+
+.utgift-box{
+    position: relative;
+    right: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inkomst-box{
+    position: relative;
+    left: 20%;
+    bottom: 18px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+    @media (max-width:600px) {
+        .utgift-box {
+        margin: 10%;
+        }}

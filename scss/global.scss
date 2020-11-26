@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Big Shoulders Inline Text', cursive;
+}
+
+body{
+    box-shadow: 0 4px 8px 0 rgba(247, 213, 149, 0.842);
+    transition: 0.3s;
+    text-align: center;
+    width: 50%;
+    margin: 5%;
+    padding: 10px;
+    
+}
+body:hover{
+    box-shadow: 0 8px 16px 0 rgba(184, 166, 108, 0.726);
+}
+

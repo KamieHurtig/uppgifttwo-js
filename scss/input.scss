@@ -1,0 +1,15 @@
+#operator, #description , #value{
+    border: 2px solid black;
+    padding: 1% 2%;
+    background-color: #8b8a8a9a;
+}
+@media (max-width:350px) {
+    #description {
+    width: 10vh;
+    float: none;
+    }}
+    @media (max-width:350px) {
+        #value {
+        width: 10vh;
+        float: none;
+        }}

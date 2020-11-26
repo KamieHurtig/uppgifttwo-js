@@ -1,0 +1,27 @@
+ul{
+    list-style-type: none; 
+}
+
+.utgiftLista{
+    display: flex;
+    justify-content: flex-end;
+    color: rgba(97, 28, 28, 0.699); 
+}
+
+.inkomstLista{
+    display: flex;
+    justify-content: flex-start;
+    color: rgba(61, 102, 61, 0.849);
+}
+@media (max-width:530px) {
+    .inkomstLista {
+    font-size: 10px;
+    float: none;
+    }}
+
+@media (max-width:530px) {
+        .utgiftLista {
+        font-size: 10px;
+        float: none;
+        }}
+
