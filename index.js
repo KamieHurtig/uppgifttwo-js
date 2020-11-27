@@ -20,7 +20,9 @@ function countTotal (event) {
     li.innerText = description + ' : ' + value
     var ul = document.querySelector('.listaInkomst')
     ul.appendChild(li)
-  } else if (operator.value === '-') {
+  } 
+  
+  else if (operator.value === '-') {
     description = document.querySelector('#description').value
     value = document.querySelector('#value').value
 
